@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wether APP</title>
+  <link rel="stylesheet" href="./assets/stylesheets/style.css">
+</head>
+
+<body>
+  <form>
+    <div class="form-item">
+      <label for="city">City Name: </label>
+      <input type="text" placeholder="Enter A City Name" id="city" name="city" required>
+    </div>
+    <button type="submit">SUBMIT</button>
+  </form>
+  
+  <div class="error-message"></div>
+  
+  <div class="weather-info">
+    <h1 class="cityName"></h1>
+    <h4 class="celsius"></h4>
+    <h4 class="fahrenheit"></h4>
+  </div>
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="./assets/javascript/script.js"></script>
+</body>
+
+</html>
